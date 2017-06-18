@@ -57,12 +57,12 @@ void *return_address(unsigned int level)
 }
 
 #else 
-
+/*
 void *return_address(unsigned int level)
 {
 	return NULL;
 }
-
+*/
 #endif 
 
 EXPORT_SYMBOL_GPL(return_address);
